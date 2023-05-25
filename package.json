@@ -1,0 +1,20 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ngneat/falso": "^6.4.0",
+    "cypress": "^9.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "faker": "^6.6.6"
+  }
+}
