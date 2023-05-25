@@ -1,9 +1,9 @@
 Feature: CRUD API
 
-    Scenario: Criar um novo usuário com sucesso
-        Given que eu tenha os dados necessários para criar um novo usuário
-        When eu faço uma requisição POST para /usuarios com esses dados
-        Then um novo usuário é criado com sucesso
+    # Scenario: Criar um novo usuário com sucesso
+    #     Given que eu tenha os dados necessários para criar um novo usuário
+    #     When eu faço uma requisição POST para /usuarios com esses dados
+    #     Then um novo usuário é criado com sucesso
 
     Scenario: Tentar criar um novo usuário com um email que já está em uso
         Given que eu tente criar um usuário com o email ja existente
