@@ -1,10 +1,10 @@
-name: End-to-end tests 🧪
+name: Testes API
 on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v3
